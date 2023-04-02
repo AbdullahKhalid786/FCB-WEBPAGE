@@ -1,0 +1,221 @@
+.body,html{
+    color: white;
+    background-color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 1260px;
+}
+
+.rest{
+    /* background: linear-gradient(0deg,#181733 0,#181733 30%,#7b1125); */
+    background: linear-gradient(0deg,#181733 0,#181733 30%,#ad102880);
+}
+
+.main-banner{
+    margin: 0;
+    padding: 0;
+   width: 1240px;
+   height: 620px;
+   overflow: hidden;
+}
+.back{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-image: url("https://wallpaperset.com/w/full/f/1/0/490689.jpg");
+    background-size:cover;
+    height: 650px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1240px;
+    height: 600px;
+    color: #ffee04;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 90px;
+    left: 10px;
+    line-height: 20px;  
+}
+.wrapper h1{
+    font-size: 70px;
+    font-family: 'Ropa Sans', sans-serif;
+    /* -webkit-text-stroke: 2px black; */
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    /* -webkit-text-stroke: 2px black; */
+}
+.rest h2{
+    background: -webkit-linear-gradient(#6245bb, #800606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.wrapper a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ae0603cd;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.wrapper a:hover{
+
+    background-image: linear-gradient(to right, #ad1027 , #181733);
+    transform: scale(1.05)
+}
+
+/* Nav bar */
+
+nav{
+    height: 70px;
+    background-color: #181733;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+a.logo{
+    color: #ad1027;
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 30px;
+    background-image: url("https://yt3.googleusercontent.com/UhRgYwlAnZMwGH_SHPSSdaxP-7wc1eEPB9ye_5vJnWNna-RYvetlnxjOMGD3Lr6P2xPvLldDnA=s900-c-k-c0x00ffffff-no-rj");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+
+}
+
+nav ul li{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+nav ul li a{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #6245bb;
+    text-decoration: none;
+    padding: 27px;
+    line-height: 26px;
+}
+
+nav ul li a:hover{
+    background-image: linear-gradient(to right, #ad1027 , #181733);
+    color: #ffee04;
+    transform: scale(0.95);
+}
+
+a.logo:hover{
+    transform: scale(1.2);
+}
+.about{
+    text-align: center;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 50px;
+}
+
+p{
+    font-size: 30px;
+    margin: 30px 0;
+}
+.sep{
+    height: 10px;
+    width: 300px;
+    background-color: #000000;
+    margin: 10px auto 30px;
+    
+}
+
+/* Legends */
+
+.legends{
+    margin: auto;
+    width: 75%;
+    overflow: hidden;
+}
+
+.messi{
+    padding: 10px;
+    float: left;
+}
+.puyol{
+    padding: 10px;
+    float: right;
+    clear: left;
+}
+span{
+    display: block;
+    background: -webkit-linear-gradient(#6245bb, #800606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* CULER */
+
+.culer{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 75%;
+    line-height: 50px;
+}
+.cta{
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ae0603cd;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.cta:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ad1027 , #181733);
+    transform: scale(1.05)
+}
+.cta:focus{
+    transform: rotate(80deg);
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    background: -webkit-linear-gradient(#6245bb, #800606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
