@@ -50,42 +50,48 @@
                 <div class="messi"><img src="messi2014.jpg" alt="" width="350"></div>
                 <div class="puyol"><img src="Puyol2011.jpg" alt="" width="320"></div>
 
-                <p><span>Lionel Andrés Messi</span>Born 24 June 1987, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record seven Ballon d'Or awards[note 2] and a record six European Golden Shoes, and in 2020 he was named to the Ballon d'Or Dream Team. Until leaving the club in 2021, he had spent his entire professional career with Barcelona, where he won a club-record 34 trophies. <br><br>
-                <span>Carles Puyol Saforcada</span> Born 13 April 1978, is a Spanish former professional footballer who played his entire career for Barcelona. He mainly played as a central defender, but he could also play in either full-back position, mostly as a right-back.[4] Praised for his defensive qualities and leadership, he is widely regarded as one of the greatest defenders of all time.[5][6] Puyol's abilities and prowess on the field earned him the nickname of "El Tiburón" ('The Shark') by teammates and fans.</p>
+                <p><span>Lionel Andrés Messi</span>Born 24 June 1987, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record seven Ballon d'Or awards and a record six European Golden Shoes, and in 2020 he was named to the Ballon d'Or Dream Team. Until leaving the club in 2021, he had spent his entire professional career with Barcelona, where he won a club-record 34 trophies. <br><br>
+                <span>Carles Puyol Saforcada</span> Born 13 April 1978, is a Spanish former professional footballer who played his entire career for Barcelona. He mainly played as a central defender, but he could also play in either full-back position, mostly as a right-back. Praised for his defensive qualities and leadership, he is widely regarded as one of the greatest defenders of all time. Puyol's abilities and prowess on the field earned him the nickname of "El Tiburón" ('The Shark') by teammates and fans.</p>
 
             </div>
             <div class="sep" id="Culer"></div>
             <div class="culer">
                 <h2>Become a Culer</h2>
                 <p>By being a member you will have full access to Barça TV+ and all the advantages the programme offers</p>
-                <button class="cta">Sign up</button>
+                <button class="cta" onclick="showPopup ();">Sign up</button>
             </div>
 
-            <footer>Made by Abdullah Khalid </footer>
+            <footer>
+                <div class="text">
+                    Made in a TapTapKaboom class.
+                </div>
+            </footer>
             </div>
-        <div class="popup">
-            <div class="blanket">
-                <div class="content">
-                    <h2>Fill In Your Details.</h2>
-                    <form action="">
-                        <div class="item">
-                            <label for="">Your First Name</label>
-                            <input type="text" placeholder="Lionel" value="puyol">
-                        </div>
-                        <div class="item">
-                            <label for="">Your Last Name</label>
-                            <input type="text" placeholder="Lionel">
-                        </div>
-                        <div class="item">
-                            <label for="">Your E-mail Address</label>
-                            <input type="text" placeholder="Lionel">
-                        </div>
-                        <button class="cta">Sign Up</button>
-                    </form>
-                    <button class="close">close</button>
+        <div class="stop" id="popup">
+            <div class="popup">
+                <div class="blanket">
+                    <div class="content">
+                        <h2>Fill In Your Details.</h2>
+                        <form action="">
+                            <div class="item">
+                                <label for="">Your First Name</label><br>
+                                <input type="text" placeholder="Lionel">
+                            </div>
+                            <div class="item">
+                                <label for="">Your Last Name</label><br>
+                                <input type="text" placeholder="Messi">
+                            </div>
+                            <div class="item">
+                                <label for="">Your E-mail Address</label><br>
+                                <input type="text" placeholder="THEGOAT@gmail.com">
+                            </div>
+                            <button class="cta">Sign Up</button>
+                        </form>
+                        <button class="close" onclick="hidePopup ();">close</button>
+                    </div>
                 </div>
             </div>
         </div>
-        
     </body>
 </html>
+<script src="script.js" type="text/javascript"></script>

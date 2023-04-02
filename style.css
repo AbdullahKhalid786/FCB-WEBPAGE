@@ -151,7 +151,6 @@ p{
     width: 300px;
     background-color: #000000;
     margin: 10px auto 30px;
-    
 }
 
 /* Legends */
@@ -205,12 +204,9 @@ span{
     background-image: linear-gradient(to right, #ad1027 , #181733);
     transform: scale(1.05)
 }
-.cta:focus{
-    transform: rotate(80deg);
-}
 
 /* FOOTER */
-footer{
+.text{
     text-align: center;
     margin: auto;
     padding: 30px;
@@ -218,4 +214,67 @@ footer{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+footer{
+    background-color: #000000;
+}
+/* pop up */
+.stop{
+    display: none;
+}
+.stop.show{
+    display: block;
+}
+.popup{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.blanket{
+    color: #ffffff;
+    position: absolute;
+    background-color: #23057d;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    width: 500px;
+    height: 450px;
+
+}
+.blanket .content{
+    text-align: center;
+    padding: 30px;
+}
+.blanket .item{
+    padding: 10px;
+}
+
+.blanket .item input[type='text']{
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+}
+
+.popup .close{
+    position: absolute;
+    top: 0px;
+    right: -6px;
+    width: 60px;
+    height: 40px;
+    background:url(https://cdn-icons-png.flaticon.com/512/6276/6276642.png) center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    outline: none;
+    text-indent: -999999px;
+}
+.popup .close:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
